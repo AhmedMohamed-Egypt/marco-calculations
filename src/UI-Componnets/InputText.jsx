@@ -10,6 +10,7 @@ function InputText({label,labelEnd,disabled,value,onChange}){
         sx={{ m: 1, width: '25ch' }}
         disabled={disabled}
         value = {value}
+        
         onChange = {onChange}
         slotProps={{
           input: {
